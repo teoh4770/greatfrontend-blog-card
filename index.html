@@ -6,23 +6,34 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
   <div id="app">
     <article class="blog-card">
-      <img class="blog-card__image" src="" alt="">
+      <img class="blog-card__image" src="/spacejoy.jpg" alt="One example of living room inspirations">
       <div class="blog-card__content">
         <header class="blog-card__header">
           <div class="tabs">
-            <div class="tab">Interior</div>
+            <div class="tab tab--green">Interior</div>
           </div>
           <h2 class="blog-card__title">Top 5 Living Room Inspirations</h2>
         </header>
-        <!-- description -->
-        <p class="blog-card__description"></p>
-        <!-- cta: the button should have hover, focus and active state  -->
-        <a class="button blog-card__cta" href="#">Read more {'->' icon}</a>
+        <p class="blog-card__description">
+          Curated vibrants colors for your living, make it pop & calm in the same time.
+        </p>
+        <div class="blog-card__actions">
+          <button type="button" class="button button--cta">
+            <span>Read more</span>
+            <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.9763 6.16658L6.50625 1.69657L7.68475 0.518066L14.1666 6.99992L7.68475 13.4817L6.50625 12.3032L10.9763 7.83325H0.833252V6.16658H10.9763Z"
+                fill="currentColor" />
+            </svg>
+          </button>
+        </div>
       </div>
     </article>
   </div>
