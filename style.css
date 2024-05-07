@@ -168,6 +168,10 @@ body {
 
 .blog-card__description {
   color: var(--black-600);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 
